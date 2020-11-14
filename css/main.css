@@ -1,0 +1,39 @@
+.bg-nav{
+    background-color: rgba(0, 0, 0, .7);
+
+}
+.groom-cover{
+    
+    background-image: url(../images/groom_cover.jpg);
+    background-size: 100% 100%;
+}
+.groom-first-text
+{
+    font-size: 3em;
+}
+.groom-looks h3{
+    font-size: 3em;
+}
+.groom-looks h4{
+    font-size: 2em;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.groom-look-item{
+    height: 500px;
+}
+.groom-look-item2
+{
+    height: 250px;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background-color: blue;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span
+{
+    background-color: brown;
+}
+.groom-collection{
+    background-color: rgb(244,230,245);
+}
