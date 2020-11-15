@@ -1,3 +1,12 @@
+@font-face
+{
+    src: url(../fonts/ZapfinoExtraLTPro.otf);
+    font-family: zapfino-pro;
+}
+
+
+
+
 .bg-nav{
     background-color: rgba(0, 0, 0, .7);
 
@@ -9,10 +18,12 @@
 }
 .groom-first-text
 {
-    font-size: 3em;
+    font-size: 5em;
+    font-family: zapfino-pro;
 }
 .groom-looks h3{
     font-size: 3em;
+    
 }
 .groom-looks h4{
     font-size: 2em;
@@ -28,12 +39,20 @@
     height: 250px;
 }
 .owl-theme .owl-dots .owl-dot span{
-    background-color: blue;
+    background-color: rgb(60, 137, 226);
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span
 {
-    background-color: brown;
+    background-color: rgb(112, 19, 19);
 }
 .groom-collection{
-    background-color: rgb(244,230,245);
+    background-color: #D8DADF;
+}
+.groom-fotter{
+    background-color:  #D8DADF;
+}
+.groom-fotter i{
+    border: solid 1px transparent;
+    border-radius: 50%;
+    padding: 10px;
 }
