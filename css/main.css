@@ -3,10 +3,6 @@
     src: url(../fonts/ZapfinoExtraLTPro.otf);
     font-family: zapfino-pro;
 }
-
-
-
-
 .bg-nav{
     background-color: rgba(0, 0, 0, .7);
 
@@ -55,4 +51,23 @@
     border: solid 1px transparent;
     border-radius: 50%;
     padding: 10px;
+}
+.groom-shoes-cover{
+    background-image: url(../images/shoes\ cover.jpg);
+    background-size: 100% 100%;
+}
+.groom-shoes-cover-layer{
+    background-color: rgba(0, 0, 0, .5);
+}
+.groom-shoes-footer{
+    background-color: white;
+}
+.groom-shoes-footer i{
+    border: solid 1px transparent;
+    border-radius: 50%;
+    padding: 10px;
+}
+.groom-hair-style-cover{
+    background-image: url(../images/groom-parper-cover.jfif);
+    background-size: 100% 100%;
 }
