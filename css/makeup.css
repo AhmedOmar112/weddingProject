@@ -1,0 +1,148 @@
+html, body {
+    font-family: lucida-fax;
+    margin: 0;
+    padding: 0;
+  }
+  /*-----------------------------------start of 1st page-------------------------------- */
+  /* start of Navbar  */
+  
+  .container-fluid {
+    position: fixed;
+    font-size: 12px;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .collapse {
+    margin-left: 350px;
+  }
+  .nav-item {
+    margin-right: 30px;
+  }
+  
+  /* end of Navbar  */
+  
+  /* start of backgroundLayer  */
+  
+  .background-Layer {
+    height: 100vh;
+    background-image: url(../images/Types-of-Wedding-Shoes-for-Men.jpg);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: 100% 100%;
+    background-size: cover;
+  }
+  
+  .caption1 {
+    font-family: zapfino;
+    color: #fff;
+    font-size: 75px;
+  }
+  .caption2 {
+    color: #fff;
+    font-size: 75px;
+    font-family: zapfino;
+  }
+  
+  
+  
+  /*start of footer section*/
+  footer {
+    margin-top: 150px;
+    height: 400px;
+    background-color: whitesmoke;
+  }
+  
+  .footer-social i {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .footer-social .fa-facebook-f {
+    background-color: blueviolet;
+  }
+  .footer-social .fa-twitter {
+    background-color: #00a8fa;
+  }
+  .footer-social .fa-instagram {
+    background-color: #fe5e72;
+  }
+  .footer-social .fa-youtube {
+    background-color: red;
+  }
+  /*end of footer section*/
+  
+  
+  #makeupArtist {
+    margin-top: 150px;
+  }
+  #makeupArtist img {
+    border-radius: 10px;
+  }
+  
+  #makeup_artist {
+    margin-top: 150px;
+  }
+  
+  #makeup_artist img {
+    border-radius: 10px;
+  }
+  
+  .item1 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .makeup-info {
+    width: 450px;
+    height: 300px;
+    background-color: #ffbaba;
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    left: -70%;
+    right: 0;
+    transform: rotate(30deg);
+    border: 10px solid #fff;
+    color: #fff;
+    opacity: 0;
+    transition: all 1s;
+    
+  }
+  
+  .item-hover {
+    height: 200px;
+    width: 200px;
+    background-color: #00a8fa;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transform: rotate(36deg);
+    border: 10px solid #fff;
+    opacity: 0;
+    transition: all 1s;
+    
+  }
+  .item1:hover .makeup-info {
+    opacity: 1;
+  }
+  .item1:hover .item-hover {
+    opacity: 1;
+  }
+  
+  .makeup-info h5 {
+    transform: rotate(-29deg);
+    margin-top: 40px;
+  }
+  
+  .makeup-info .makeup-social {
+    transform: rotate(-29deg);
+  }
+  
+  
