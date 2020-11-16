@@ -1,21 +1,19 @@
-@font-face
-{
+@font-face {
   src: url(../zapfinoextraltone/ZapfinoExtraLT-One.otf);
   font-family: zapfino;
 }
-@font-face
-{
+
+@font-face {
   src: url(../lucida-fax/Lucida\ Fax\ Regular.ttf);
   font-family: lucida-fax;
 }
 
-
-
-
 body {
   font-family: lucida-fax;
 }
+
 /*-----------------------------------start of 1st page-------------------------------- */
+
 /* start of Navbar  */
 
 .container-fluid {
@@ -30,6 +28,7 @@ body {
 .collapse {
   margin-left: 350px;
 }
+
 .nav-item {
   margin-right: 30px;
 }
@@ -52,6 +51,7 @@ body {
   color: #fff;
   font-size: 75px;
 }
+
 .caption2 {
   color: #fff;
   font-size: 20px;
@@ -60,6 +60,7 @@ body {
 }
 
 /*start of footer section*/
+
 footer {
   margin-top: 150px;
   height: 400px;
@@ -70,32 +71,36 @@ footer {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-
   color: #fff;
   font-size: 30px;
   padding-top: 10px;
 }
+
 .footer-social .fa-facebook-f {
   background-color: blueviolet;
 }
+
 .footer-social .fa-twitter {
   background-color: #00a8fa;
 }
+
 .footer-social .fa-instagram {
   background-color: #fe5e72;
 }
+
 .footer-social .fa-youtube {
   background-color: red;
 }
+
 /*end of footer section*/
+
 /*-----------------------------------end of 1st page-------------------------------- */
 
 /*-----------------------------------start of 2nd page-------------------------------- */
 
 /*start of slider section*/
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
@@ -117,8 +122,7 @@ body {
   width: 100%;
 }
 
-.slick-prev:before,
-.slick-next:before {
+.slick-prev:before, .slick-next:before {
   color: black;
 }
 
@@ -157,6 +161,7 @@ body {
   position: absolute;
   bottom: -4%;
 }
+
 .slider-item-caption h5 {
   font-size: 10px !important;
 }
@@ -170,23 +175,28 @@ body {
 .slider-slcik2-caption {
   margin-left: 150px;
 }
+
 .slider-slcik2-caption h4 {
   font-weight: 700;
   font-size: 40px;
 }
+
 .slider-slcik2-caption h5 {
   font-weight: 700;
 }
 
 /*start of gallery3 section*/
+
 .gallery3-caption {
   position: relative;
 }
+
 .gallery3-caption h4 {
   font-size: 80px;
   font-weight: 700;
   color: #ff7b7b;
 }
+
 .gallery3-caption p {
   font-size: 40px;
   font-weight: 700;
